@@ -39,6 +39,11 @@ struct ContentView: View {
                 Image("tuttiInsieme")
                     .padding(.top)
                 Spacer()
+                
+                Text ("I added something")
+                    .font(.title)
+                    .foregroundStyle(.white)
+                    .bold()
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                     ZStack {
                         RoundedRectangle(cornerSize: /*@START_MENU_TOKEN@*/CGSize(width: 20, height: 10)/*@END_MENU_TOKEN@*/, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/)
