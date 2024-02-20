@@ -24,7 +24,6 @@ struct ContentView: View {
                         Spacer()
                         VStack {
                             Text("Your score:")
-                                .font(.system(size: 35))
                                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                                 .bold()
                                 .padding(.leading, 20.0)
@@ -39,11 +38,6 @@ struct ContentView: View {
                 Image("tuttiInsieme")
                     .padding(.top)
                 Spacer()
-                
-                Text ("I added something")
-                    .font(.title)
-                    .foregroundStyle(.white)
-                    .bold()
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                     ZStack {
                         RoundedRectangle(cornerSize: /*@START_MENU_TOKEN@*/CGSize(width: 20, height: 10)/*@END_MENU_TOKEN@*/, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/)
@@ -62,7 +56,7 @@ struct ContentView: View {
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(
-                    RadialGradient(gradient: Gradient(colors: [.green, .black]), center: .center, startRadius: 0, endRadius: 1300)
+                    RadialGradient(gradient: Gradient(colors: [.verde, .black]), center: .center, startRadius: 0, endRadius: 1300)
         )
     }
 }
