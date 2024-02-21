@@ -16,7 +16,7 @@ struct ContentView: View {
                 VStack {
                     HStack{
                         VStack {
-                            Text("Are you ready to learn?")
+                            Text("Are you ready to learn??")
                                 .font(.system(size: 35))
                                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                                 .bold()
