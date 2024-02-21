@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		54FF390F2B85007500C629C7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF390E2B85007500C629C7 /* ViewModel.swift */; };
 		54FF39112B85008A00C629C7 /* Domande.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF39102B85008A00C629C7 /* Domande.swift */; };
-		54FF39132B8500B900C629C7 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF39122B8500B900C629C7 /* Timer.swift */; };
+		54FF39132B8500B900C629C7 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF39122B8500B900C629C7 /* TimerView.swift */; };
 		54FF39152B8500D900C629C7 /* ListaDomande.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF39142B8500D900C629C7 /* ListaDomande.swift */; };
+		54FF39172B852DA200C629C7 /* SecondQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF39162B852DA200C629C7 /* SecondQuestion.swift */; };
 		E00B70DA2B8391DF00AB200E /* BimbiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00B70D92B8391DF00AB200E /* BimbiApp.swift */; };
 		E00B70DC2B8391DF00AB200E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00B70DB2B8391DF00AB200E /* ContentView.swift */; };
 		E00B70DE2B8391E000AB200E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00B70DD2B8391E000AB200E /* Assets.xcassets */; };
@@ -20,8 +21,9 @@
 /* Begin PBXFileReference section */
 		54FF390E2B85007500C629C7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		54FF39102B85008A00C629C7 /* Domande.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domande.swift; sourceTree = "<group>"; };
-		54FF39122B8500B900C629C7 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		54FF39122B8500B900C629C7 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		54FF39142B8500D900C629C7 /* ListaDomande.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDomande.swift; sourceTree = "<group>"; };
+		54FF39162B852DA200C629C7 /* SecondQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondQuestion.swift; sourceTree = "<group>"; };
 		E00B70D62B8391DF00AB200E /* Bimbi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bimbi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00B70D92B8391DF00AB200E /* BimbiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BimbiApp.swift; sourceTree = "<group>"; };
 		E00B70DB2B8391DF00AB200E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,7 +65,8 @@
 				E00B70DB2B8391DF00AB200E /* ContentView.swift */,
 				54FF390E2B85007500C629C7 /* ViewModel.swift */,
 				54FF39102B85008A00C629C7 /* Domande.swift */,
-				54FF39122B8500B900C629C7 /* Timer.swift */,
+				54FF39162B852DA200C629C7 /* SecondQuestion.swift */,
+				54FF39122B8500B900C629C7 /* TimerView.swift */,
 				54FF39142B8500D900C629C7 /* ListaDomande.swift */,
 				E00B70DD2B8391E000AB200E /* Assets.xcassets */,
 				E00B70DF2B8391E000AB200E /* Preview Content */,
@@ -151,9 +154,10 @@
 			files = (
 				54FF39152B8500D900C629C7 /* ListaDomande.swift in Sources */,
 				54FF39112B85008A00C629C7 /* Domande.swift in Sources */,
+				54FF39172B852DA200C629C7 /* SecondQuestion.swift in Sources */,
 				E00B70DC2B8391DF00AB200E /* ContentView.swift in Sources */,
 				54FF390F2B85007500C629C7 /* ViewModel.swift in Sources */,
-				54FF39132B8500B900C629C7 /* Timer.swift in Sources */,
+				54FF39132B8500B900C629C7 /* TimerView.swift in Sources */,
 				E00B70DA2B8391DF00AB200E /* BimbiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
